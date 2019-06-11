@@ -3,3 +3,4 @@
 
 1.Find information about node.js
 >>watch tutorial net ninja
+>>function with function passed in as parameter
