@@ -1,16 +1,19 @@
-//function expression
+const express = require("express"); //import the NPM dependency package
 
-var sayBye= function(){
-    console.log('bye');
-};
+const app     = express();//initialise express() inside and write to the app variable
 
-sayBye();
+require("./routes/userRoutes")(app); //parse body of incoming json requests
+                                     //import route module and pass your app
 
-//function 
- function callFunction(fun){
-fun();
+const PORT    = 5000; //choose what port on which to run the server
 
-};
-//function with 
+app.listen(PORT, () => {
+  console.log(`Server running`); // use the app variable and listen on the port
+});
 
-callFunction(sayBye);
+
+
+
+
+
+
