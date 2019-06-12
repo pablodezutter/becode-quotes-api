@@ -4,7 +4,7 @@ const express = require('express');
 const app     = express();
 //initialise express() inside and write to the app variable
 
-require("./routes/userRoutes"); 
+require("./routes/userRoutes")(app); 
 //voorlopig app en () weglaten
 //import route module and pass your app
 
