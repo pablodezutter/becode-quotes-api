@@ -16,8 +16,15 @@
 
 learning to use .gitignore correctly, adapting folders, commit went wrong (rootfolder - sudo nautilus to delete)
 
-5. putting  const in file index.js
+5. Putting  const in file index.js
 
-6. creating server 
+6. Creating server 
 
 Foutmelding typeError: require(...)is not a function
+loose the (app) for the moment
+
+7. Users.json
+getting info in file
+
+8. userRoutes
+getting info in file
