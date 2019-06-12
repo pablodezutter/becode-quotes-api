@@ -11,6 +11,13 @@
 3. Create new, correct files
 
 #Wednesday 12th of June
+
 4. Probleem met folders oplossen 
+
 learning to use .gitignore correctly, adapting folders, commit went wrong (rootfolder - sudo nautilus to delete)
+
 5. putting  const in file index.js
+
+6. creating server 
+
+Foutmelding typeError: require(...)is not a function
