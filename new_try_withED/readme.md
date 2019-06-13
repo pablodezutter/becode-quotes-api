@@ -7,3 +7,4 @@
 6. Making database on MongoDB
 7. Installing env package for safety
 8. create envfile + create new folder routes
+9. create separate route file with function to import the route to the app
