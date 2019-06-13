@@ -24,4 +24,6 @@
 14. Hit Post - body - raw -json
 15. Create object
 16. Object cannot be read if you didn't install body parser
-17. 
+17. Install NPM body-parser
+18. Get data by sending it (postman)
+19. Post it in our database, create a new Post (using the model), and create function

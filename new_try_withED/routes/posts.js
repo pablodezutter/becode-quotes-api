@@ -18,8 +18,8 @@ router.get('/specific', (req,res)=>{
 
 
 router.post('/', (req, res) =>{
-    console.log('req.body');
-
+    // console.log(req.body);
+    const post= new Post
 
 })
 
