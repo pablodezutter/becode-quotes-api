@@ -6,5 +6,22 @@
 5. Middleware= function that executes when routes are being hit
 6. Making database on MongoDB
 7. Installing env package for safety
-8. create envfile + create new folder routes
-9. create separate route file with function to import the route to the app
+8. Create envfile + create new folder routes
+9. Ceate separate route file with function to import the route to the app
+
+* Create a DB
+
+10. Create folder Modals and file Post.Js within
+11. Create PostSchema, object
+12. Export
+
+* Create a post
+
+13. Create new request in posts.js
+
+* Open Postman
+
+14. Hit Post - body - raw -json
+15. Create object
+16. Object cannot be read if you didn't install body parser
+17. 

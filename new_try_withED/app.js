@@ -7,7 +7,7 @@ require ('dotenv/config');
 const postsRoute = require('./routes/posts');
 
 app.use('/posts', postsRoute);
-app.use('/user', userRoute);
+//example: app.use('/user', userRoute);
 
 
 //Middlewares 
