@@ -1,15 +1,17 @@
 {
   "name": "node_first_app",
   "version": "1.0.0",
-  "description": "1. NPM init in terminal 2. NPM install express (nodemon doesn't work) 3.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
+    "mongoose": "^5.5.15",
     "nodemon": "^1.19.1"
   }
 }

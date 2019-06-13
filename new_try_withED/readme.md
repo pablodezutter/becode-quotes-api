@@ -4,4 +4,6 @@
 3. Put new start script in package.json
 4. In app.js: Listen to port 5000 and create route 
 5. Middleware= function that executes when routes are being hit
-6. 
+6. Making database on MongoDB
+7. Installing env package for safety
+8. create envfile + create new folder routes
