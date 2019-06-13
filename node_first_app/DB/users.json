@@ -1,5 +1,11 @@
-users.json [{"email":"george@madonna.com","username":"Georgie"},
-            {"email":"thijs@inthewoods","username":"Thijs"},
-            {"email":"raf@indetheforest","username":"Bruce"},
-            {"email":"anton@hisnewhome","username":"Anton"}]
+ {"users": 
+    [
+        {
+            "email":"example@example.com","username":"Foo"
+        },
+     {
+         "email":"example2@domain.com","username":"Bar"
+         }
+    ]
 
+}

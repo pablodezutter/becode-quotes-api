@@ -1,11 +1,13 @@
 const jsonfile = require("jsonfile");
 
 
-app.get("/users", (req, res) => {
-    let users;
+module.exports = app => {
+
+// app.get("/users", (req, res) => {
+//     let users;
   
-    res.send(users);
-  });
+//     res.send(users);
+//   });
 
   app.get("/users", (req, res) => {
     console.log("fetching all users");
@@ -16,4 +18,5 @@ app.get("/users", (req, res) => {
       res.send(content);
     });
   });
+};
 

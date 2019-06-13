@@ -26,5 +26,8 @@ loose the (app) for the moment
 7. Users.json
 getting info in file
 
-8. userRoutes
+8. UserRoutes
 getting info in file
+
+9. Put an extra line in the module
+module.exports = app => {};
