@@ -19,9 +19,25 @@ router.get('/specific', (req,res)=>{
 
 router.post('/', (req, res) =>{
     // console.log(req.body);
-    const post= new Post
+    const post= new Post ({
+        title: req.body.title,
+        description: req.body.description
 
-})
+    });
+
+    //Create promise
+
+    post.save()
+        .then(data =>{
+        res.json(data);
+    })
+    .catch(err => {
+        res.json({ message: err });
+
+
+    }); 
+
+});
 
 
 module.exports = router;

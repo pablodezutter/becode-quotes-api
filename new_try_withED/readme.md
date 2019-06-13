@@ -27,3 +27,4 @@
 17. Install NPM body-parser
 18. Get data by sending it (postman)
 19. Post it in our database, create a new Post (using the model), and create function
+20. Create promise 
